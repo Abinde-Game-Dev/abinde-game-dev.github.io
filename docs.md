@@ -1,4 +1,4 @@
-# Abinde Docs
+--- title: Docs permalink: /docs/ ---  Documentation page.
 
 ## Before You Continue
 
