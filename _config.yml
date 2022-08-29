@@ -1,4 +1,3 @@
-theme: jekyll-theme-cayman
-title: Abinde Docs
-description: Documentation for Abinde module.
+title: Abinde
+description: Abinde is an open-source game engine for python users.
 remote_theme: just-the-docs/just-the-docs

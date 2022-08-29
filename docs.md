@@ -1,4 +1,6 @@
---- title: Docs permalink: /docs/ ---  Documentation page.
+layout: page
+title: "Abinde Documentation Page"
+permalink: /docs/
 
 ## Before You Continue
 

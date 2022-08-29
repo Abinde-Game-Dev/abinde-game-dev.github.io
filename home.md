@@ -1,4 +1,6 @@
---- title: Home permalink: /home/ ---  Abinde is an open-source game engine for python users.
+layout: page
+title: "Abinde Homepage"
+permalink: /home/
 
 
 ## Resources
