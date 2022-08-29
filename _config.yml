@@ -1,3 +1,4 @@
 theme: jekyll-theme-cayman
 title: Abinde Docs
 description: Documentation for Abinde module.
+remote_theme: just-the-docs/just-the-docs
