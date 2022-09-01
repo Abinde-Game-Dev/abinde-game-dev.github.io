@@ -145,3 +145,12 @@ audio_name.unpause()
 ## Colors
 
 Run `help(ab.color)` for more info.
+
+## Keys
+
+Run `help(ab.keys)` for more info.
+
+## Mods
+
+Run `help(ab.mods)` for more info.
+
