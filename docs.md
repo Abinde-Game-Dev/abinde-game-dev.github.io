@@ -44,6 +44,8 @@ To make the game object, you can add:
 
 ```python
 game_name = ab.Game(str(title), list(size), color(color), str(warn), str(log))
+
+game_name.mainloop()
 ```
 
 Run `help(ab.Game)` for more technical information.
@@ -75,6 +77,7 @@ Run `help(ab.sprite.Line)` for more technical information.
 To create an ellipse/circle, you can add:
 
 ```python
+ellipse_name = ab.sprite.Ellipse(list(pos), list(size), color(color), str(title))
 ```
 
 Run `help(ab.sprite.Ellipse)` for more technical information.
@@ -84,6 +87,7 @@ Run `help(ab.sprite.Ellipse)` for more technical information.
 To create text, you can add:
 
 ```python
+text_name = ab.sprite.Text(str(fontname), str(text), int(fontsize), tuple(pos), color(color))
 ```
 
 Run `help(ab.sprite.Text)` for more technical information.
@@ -91,7 +95,49 @@ Run `help(ab.sprite.Text)` for more technical information.
 
 ## Events
 
+### On Mouse Down
+
+Trigger event on mouse down:
+
+```python
+OnMouseDown(game(game), def(do))
+```
+
+### On Mouse Up
+
+Trigger event on mouse up:
+
+```python
+OnMouseUp(game(game), def(do))
+```
+
+### On Mouse Motion
+
+Trigger event on mouse motion:
+
+```python
+OnMouseMotion(game(game), def(do))
+```
+
+### On Update
+
+Trigger event on update:
+
+```python
+OnUpdate(game(game), def(do))
+```
+
 ## Audio
+
+To play audio:
+
+```python
+audio_name = Audio(str(file), int(volume))
+
+audio_name.play()
+audio_name.pause()
+audio_name.unpause()
+```
 
 ## Colors
 
