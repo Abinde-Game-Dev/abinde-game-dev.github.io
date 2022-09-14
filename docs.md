@@ -11,7 +11,7 @@ Please note this project is still under __heavy development__, which means it wi
 
 This project is stable on Debian Linux, Raspberry Pi, and Mac.
 
-Want to be a tester? take a look at [__this__](https://github.com/Abinde-Game-Dev/teams/testers)!
+Want to be a tester? take a look at [__this__](https://github.com/orgs/Abinde-Game-Dev/teams/testers)!
 
 ## About
 
@@ -109,7 +109,7 @@ Run `help(ab.sprite.Image)` for more technical information.
 
 If the image is a spritesheet:
 
-See [spritesheets](#Spritesheets) section.
+See [spritesheets](#spritesheets) section.
 
 If the image is not a spritesheet:
 
