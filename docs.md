@@ -197,3 +197,9 @@ Run `help(ab.keys)` for more info.
 
 Run `help(ab.mods)` for more info.
 
+## More
+
+- This project could be better! Join the [Abinde Team](https://github.com/Abinde-Game-Dev) to help!
+- 
+
+
