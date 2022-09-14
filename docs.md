@@ -95,6 +95,35 @@ text_name = ab.sprite.Text(str(fontname), str(text), int(fontsize), tuple(pos), 
 
 Run `help(ab.sprite.Text)` for more technical information.
 
+### Image
+
+To create an image, add:
+
+```python
+image = ab.sprite.Image(image(image), list(pos), str(title))
+```
+
+Run `help(ab.sprite.Image)` for more technical information.
+
+#### Loading an Image
+
+If the image is a spritesheet:
+
+See [spritesheets](#Spritesheets) section.
+
+If the image is not a spritesheet:
+
+```python
+img = ab.LoadImage(str(path))
+```
+
+You can also use:
+
+```python
+pygame.image.load(str(path))
+```
+
+But `LoadImage()` uses the `PIL` module, so it is more reliable.
 
 ## Events
 
@@ -140,6 +169,20 @@ audio_name = Audio(str(file), int(volume))
 audio_name.play()
 audio_name.pause()
 audio_name.unpause()
+```
+
+## Spritesheets
+
+To load a spritesheet:
+
+```python
+sheet = ab.spritesheet(str(filename))
+```
+
+To return an image from sheet:
+
+```python
+sheet.image_at(tuple(rectangle), color(colorkey))
 ```
 
 ## Colors
