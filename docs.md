@@ -200,6 +200,6 @@ Run `help(ab.mods)` for more info.
 ## More
 
 - This project could be better! Join the [Abinde Team](https://github.com/Abinde-Game-Dev) to help!
-- 
+- If you make a game with this module, tag it `abinde` and i'll give it a look!
 
 
