@@ -9,7 +9,7 @@ categories: docs welcome
 
 Please note this project is still under __heavy development__, which means it will probably change __a lot__. However, all of the versions will be available to install on [__PyPI__](https://pypi.org/project/Abinde).
 
-This project is stable on Debian Linux, Raspberry Pi, and Mac.
+This project is stable on Debian Linux, Raspberry Pi, and Mac. When installing a previous version from __PyPI__, consider yourself warned, not all versions are stable, some will not even work. For example: Avoid __2.4.2.3__.
 
 Want to be a tester? take a look at [__this__](https://github.com/orgs/Abinde-Game-Dev/teams/testers)!
 
